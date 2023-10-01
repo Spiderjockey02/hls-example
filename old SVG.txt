@@ -1,0 +1,11 @@
+<use href="#fullscreen" ref={i => fullscreenBtns.current[0] = i}></use>
+<use href="#fullscreen-exit" className="hidden" ref={i => fullscreenBtns.current[1] = i}></use>
+
+
+<svg className="svg">								
+	<FullscreenExitIcon className="hidden" ref={i => fullscreenBtns.current[1] = i}/>
+</svg>
+
+<svg className="svg">
+	<use href="#gear"></use>
+</svg>
